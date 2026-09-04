@@ -1,0 +1,145 @@
+import type { CertificateItem } from "@/types/certificate";
+
+/**
+ * Verified Certificates & Accreditations Data
+ *
+ * Official verified certificates and merit documents awarded to Shivam Laxman Gaikwad.
+ * All records are backed by official scanned institutional documents located in /certificates/.
+ */
+export const certificatesData: CertificateItem[] = [
+  {
+    id: "cert-01",
+    certificateNumber: "01",
+    title: "Rising India Hackathon 1.0 — Consolation Award",
+    issuer: "Nagpur Institute of Technology (NIT), Nagpur",
+    date: "21st & 22nd April 2026",
+    category: "Competitions & Hackathons",
+    skills: ["Hackathon Innovation", "Rapid Prototyping", "Team Badz_of_BCA", "Real-World Problem Solving"],
+    image: "/certificates/rising-india-hackathon.jpg",
+    verificationUrl: undefined,
+    credentialId: "NIT-RIH-2026-CONS",
+    description:
+      "Recognized with a Consolation Award at the national-level Rising India Hackathon 1.0 organized by Nagpur Institute of Technology (NAAC Grade 'A') in association with Nagpur Next, inunity, and industry partners. Represented Team Badz_of_BCA demonstrating exceptional technical skill, innovation, and teamwork in solving real-world challenges.",
+    isPlaceholder: false,
+  },
+  {
+    id: "cert-02",
+    certificateNumber: "02",
+    title: "ICON 26.0: INNOVISTA — 2nd Rank",
+    issuer: "Yeshwantrao Chavan College of Engineering (YCCE), Nagpur",
+    date: "06, 07 & 08 August 2026",
+    category: "Competitions & Hackathons",
+    skills: ["Technical Innovation", "Project Presentation", "Team BADZOFBCA", "Engineering Ideation"],
+    image: "/certificates/ycce-innovista-2nd-rank.jpg",
+    verificationUrl: undefined,
+    credentialId: "YCCE-ICON26-INNOVISTA-2ND",
+    description:
+      "Certificate of Excellence awarded by YCCE (Dept. of EE & ETC in association with IEEE, ACES & IETE) for securing 2nd Rank in 'INNOVISTA' at the annual TECHFEST (ICON 26.0). Represented Team BADZOFBCA.",
+    isPlaceholder: false,
+  },
+  {
+    id: "cert-03",
+    certificateNumber: "03",
+    title: "CipheriX – The Tech Treasure Hunt (Winner)",
+    issuer: "JD College of Engineering & Management, Nagpur",
+    date: "05-04-2025",
+    category: "Competitions & Hackathons",
+    skills: ["Cryptographic Logic", "Algorithmic Puzzles", "Tech Treasure Hunt", "Teamwork Under Pressure"],
+    image: "/certificates/cipherix-treasure-hunt.jpg",
+    verificationUrl: undefined,
+    credentialId: "JDCOEM-CA-CIPHERIX-2025",
+    description:
+      "Awarded 1st Place Winner in 'CipheriX – The Tech Treasure Hunt' at Tech-Fest (Siddhatva 2025), organized by the Department of Computer Applications, JDCOEM. Recognized for computational speed, enthusiasm, problem-solving prowess, and decisive team coordination.",
+    isPlaceholder: false,
+  },
+  {
+    id: "cert-04",
+    certificateNumber: "04",
+    title: "ICON 26.0: Tech Treasure Hunt — 3rd Place",
+    issuer: "Yeshwantrao Chavan College of Engineering (YCCE), Nagpur",
+    date: "06, 07 & 08 August 2026",
+    category: "Competitions & Hackathons",
+    skills: ["Technical Problem Solving", "Team badzofbca", "Tech Treasure Hunt", "Rapid Logic Deduction"],
+    image: "/certificates/ycce-tech-treasure-hunt-3rd-place.jpg",
+    verificationUrl: undefined,
+    credentialId: "YCCE-ICON26-HUNT-3RD",
+    description:
+      "Certificate of Achievement awarded by YCCE (Dept. of EE & ETC in association with IEEE & ACES) for securing 3rd Place in the 'Tech Treasure Hunt' at TECHFEST (ICON 26.0). Represented Team badzofbca.",
+    isPlaceholder: false,
+  },
+  {
+    id: "cert-05",
+    certificateNumber: "05",
+    title: "Tech-Fest (Siddhatv) — Event Coordinator",
+    issuer: "JD College of Engineering & Management, Nagpur",
+    date: "11, 12 April 2026",
+    category: "Leadership & Events",
+    skills: ["Event Leadership", "Operations Management", "Cross-Functional Coordination", "Technical Fest Execution"],
+    image: "/certificates/techfest-siddhatv-coordinator.jpg",
+    verificationUrl: undefined,
+    credentialId: "JDCOEM-CA-COORD-2026",
+    description:
+      "Certificate of Appreciation awarded by the Department of Computer Applications for outstanding contribution as an Event Coordinator during Tech-Fest (Siddhatv) 2026. Commended for exceptional dedication, organizational leadership, and seamless execution.",
+    isPlaceholder: false,
+  },
+  {
+    id: "cert-06",
+    certificateNumber: "06",
+    title: "Avabodhan: 'Say It Out Loud' Short Film Competition",
+    issuer: "JD College of Engineering & Management, Nagpur",
+    date: "15 February 2026",
+    category: "Creative & Awareness",
+    skills: ["Creative Direction", "Visual Storytelling", "Social Advocacy", "Short Film Production"],
+    image: "/certificates/avabodhan-short-film.jpg",
+    verificationUrl: undefined,
+    credentialId: "JDCOEM-MECH-AVABODHAN-2026",
+    description:
+      "Certificate of Appreciation awarded in recognition of participation in the 'Say It Out Loud' 2-Minute Short Film Competition organized under Avabodhan (Anti-Drug Campaign & Human Trafficking Awareness) by the Department of Mechanical Engineering, JDCOEM.",
+    isPlaceholder: false,
+  },
+  {
+    id: "cert-07",
+    certificateNumber: "07",
+    title: "Run For Frame — 20,000 Steps Endurance Milestone",
+    issuer: "Lenskart",
+    date: "2026",
+    category: "Sports & Fitness",
+    skills: ["Endurance & Stamina", "Physical Discipline", "Goal Execution", "Health & Wellness"],
+    image: "/certificates/lenskart-run-for-frame.jpg",
+    verificationUrl: undefined,
+    credentialId: "LENSKART-RFF-20K",
+    description:
+      "Certificate of Achievement presented by Lenskart under the 'Run For Frame' national fitness challenge for successfully completing the rigorous 20,000 Steps endurance milestone.",
+    isPlaceholder: false,
+  },
+  {
+    id: "cert-08",
+    certificateNumber: "08",
+    title: "Annual Sports Meet: Kabaddi — House Representation",
+    issuer: "Green City High School & Junior College, Nagpur",
+    date: "2018 - 2019",
+    category: "Sports & Fitness",
+    skills: ["Kabaddi", "Team Athletics", "Gandhi House", "Agility & Strategy"],
+    image: "/certificates/greencity-kabaddi-2019.jpg",
+    verificationUrl: undefined,
+    credentialId: "GCHS-SPORTS-KABADDI-2019",
+    description:
+      "Awarded by Green City High School & Junior College (Sai Bahuuddeshiya Shikshan Sanstha) for representing the Gandhi House in Kabaddi during the Annual Gathering Programme & Sport Competition (2018–2019).",
+    isPlaceholder: false,
+  },
+  {
+    id: "cert-09",
+    certificateNumber: "09",
+    title: "Annual Sports Meet: Athletic Sports — House Representation",
+    issuer: "Green City High School & Junior College, Nagpur",
+    date: "2017 - 2018",
+    category: "Sports & Fitness",
+    skills: ["Sports Competitions", "Athletic Discipline", "Nehru House", "Team Spirit"],
+    image: "/certificates/greencity-sports-2018.jpg",
+    verificationUrl: undefined,
+    credentialId: "GCHS-SPORTS-ATHLETICS-2018",
+    description:
+      "Awarded by Green City High School & Junior College (Sai Bahuuddeshiya Shikshan Sanstha) for representing the Nehru House in Sports during the Annual Gathering Programme & Sport Competition (2017–2018).",
+    isPlaceholder: false,
+  },
+];

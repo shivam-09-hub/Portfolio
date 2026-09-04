@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#F8FAFC" />
+    <script>
+      (function() {
+        try {
+          var saved = localStorage.getItem('portfolio_theme');
+          var prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+          var isDark = saved ? saved === 'dark' : prefersDark;
+          if (isDark) {
+            document.documentElement.classList.add('dark');
+            document.documentElement.classList.remove('light');
+          } else {
+            document.documentElement.classList.remove('dark');
+            document.documentElement.classList.add('light');
+          }
+        } catch (e) {}
+      })();
+    </script>
+    <title>Shivam Laxman Gaikwad | Aspiring Data Scientist</title>
+    <meta
+      name="description"
+      content="Portfolio of Shivam Laxman Gaikwad — BCA student and Aspiring Data Scientist. Showcasing Data Science, Machine Learning, Data Analytics, Python, SQL, and academic milestones."
+    />
+
+    <meta name="author" content="Shivam Laxman Gaikwad" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Open Graph Default Metadata -->
+    <meta property="og:title" content="Shivam Laxman Gaikwad | Aspiring Data Scientist" />
+    <meta
+      property="og:description"
+      content="Portfolio of Shivam Laxman Gaikwad — BCA student and Aspiring Data Scientist. Showcasing Data Science, Machine Learning, Data Analytics, Python, SQL, and academic milestones."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Shivam Laxman Gaikwad Portfolio" />
+
+    <!-- Twitter Default Metadata -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Shivam Laxman Gaikwad | Aspiring Data Scientist" />
+    <meta
+      name="twitter:description"
+      content="Portfolio of Shivam Laxman Gaikwad — BCA student and Aspiring Data Scientist."
+    />
+
+    <!-- Google Fonts: Inter & JetBrains Mono -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Structured Data (JSON-LD): Factual Person & WebSite Schema -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Person",
+            "@id": "#person",
+            "name": "Shivam Laxman Gaikwad",
+            "jobTitle": "Aspiring Data Scientist",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Nagpur",
+              "addressCountry": "IN"
+            },
+            "alumniOf": {
+              "@type": "EducationalOrganization",
+              "name": "JD College of Engineering and Management"
+            },
+            "knowsAbout": [
+              "Data Science",
+              "Machine Learning",
+              "Python",
+              "SQL",
+              "Data Analytics",
+              "Power BI"
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "#website",
+            "name": "Shivam Laxman Gaikwad Portfolio",
+            "description": "Portfolio of Shivam Laxman Gaikwad showcasing Data Science, Machine Learning, Data Analytics, education, and technical certifications.",
+            "inLanguage": "en"
+          }
+        ]
+      }
+    </script>
+  </head>
+  <body class="bg-bg-primary text-text-primary antialiased selection:bg-accent-primary/20 selection:text-accent-primary min-h-screen">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
