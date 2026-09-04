@@ -391,6 +391,7 @@
 - **Current Education:** BCA (9.33 CGPA), JD College of Engineering and Management, Nagpur
 - **Social Profiles:**
   - GitHub: `https://github.com/shivam-09-hub`
+  - Portfolio Repo: `https://github.com/shivam-09-hub/Portfolio`
   - LinkedIn: `https://www.linkedin.com/in/shivamgaikwad09/`
   - Instagram: `https://www.instagram.com/__shivamgaikwad?utm_source=ig_web_button_share_sheet&igsi=ZDNlZDc0MzIxNw==`
 - **Leadership & Campus Involvement:**
